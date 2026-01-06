@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container{
+            background-color: rgb(9, 106, 106);
+            height: 80vh;
+            width: 30vw;
+        }
+
+        .box{
+            width: 34px;
+            height: 45px;
+            /* animation-name: princeKaAnimation;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.43, 0.6, 0, 0.99);
+            animation-delay: 1s;
+            animation-direction: reverse; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: princeKaAnimation 2s ease-in-out 3s 1, 
+                       prince2 3s ease-in-out 3s 1;
+        }
+
+        @keyframes princeKaAnimation {
+            from{
+                background-color: red;
+            }
+            to{
+                background-color: yellow;
+            }
+        }
+
+        @keyframes prince2 {
+            0%{
+                transform: scale(1);
+            }
+            20%{
+                transform: scale(3);
+            }
+            50%{
+                transform: scale(5);
+            }
+            80%{
+                transform: scale(4);
+            }
+            90%{
+                transform: scale(2);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>

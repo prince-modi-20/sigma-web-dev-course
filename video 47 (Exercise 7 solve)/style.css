@@ -1,0 +1,160 @@
+.logo img {
+    width: 164px;
+    padding: 10px 139px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.center ul {
+    display: flex;
+    gap: 56px;
+}
+
+.center ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.center ul li span {
+    padding: 0 5px;
+}
+
+.center ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222;
+    border: 2px solid black;
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: system-ui;
+    margin: 0 64px;
+}
+
+#icon {
+    margin-left: -80px;
+}
+
+#icons {
+    margin-left: -40px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 50px;
+}
+
+section span img {
+    width: 100px;
+    margin: 0 -62px 0 0;
+}
+
+.first p {
+    font-size: 23px;
+    text-align: center;
+    width: 59vw;
+}
+
+.btn {
+    background: #09a6bd;
+    padding: 21px 38px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.green {
+    background-color: #5cb85c;
+    cursor: pointer;
+    padding: 10px 38px;
+}
+
+.flex {
+    display: flex;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.second {
+    max-width: 51vw;
+    margin: auto;
+}
+
+.item {
+    padding: 23px;
+    background: #80808017;
+    border-radius: 10px;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.item-lang {
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+}
+
+.download:nth-child(1) {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.download img {
+    padding: 20px
+}
+
+.download {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1145px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+small{
+    position: relative;
+    bottom: 25px;
+    font-size: 12px;
+}
