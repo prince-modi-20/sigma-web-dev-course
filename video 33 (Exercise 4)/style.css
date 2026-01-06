@@ -1,0 +1,40 @@
+/* :root{
+    --primary-color: #e9a5bb;
+    --text-color: white;
+    --secondary-color: #bcc1f1;
+} */
+
+:root{
+    --primary-color: #162bec;
+    --text-color: white;
+    --secondary-color: #099de2;
+}
+
+body{
+    background-color: var(--secondary-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: var(--primary-color);
+}
+
+nav ul li{
+    list-style: none;
+    padding: 23px;
+    font-weight: bold;
+    
+}
+
+ul li a{
+    color: var(--text-color);
+}
+
+ul{
+    display: flex; 
+    text-align: center;
+}
